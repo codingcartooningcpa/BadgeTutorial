@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BadgeTutorialApp: App {
+    @StateObject var model = MessageViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MessagesTabView()
+                .environmentObject(model)
         }
     }
 }

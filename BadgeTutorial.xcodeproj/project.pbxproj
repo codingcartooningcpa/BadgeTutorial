@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		AAFE2994275A66EF007DC962 /* BadgeTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE2993275A66EF007DC962 /* BadgeTutorialApp.swift */; };
-		AAFE2996275A66EF007DC962 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE2995275A66EF007DC962 /* ContentView.swift */; };
+		AAFE2996275A66EF007DC962 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE2995275A66EF007DC962 /* MessageView.swift */; };
 		AAFE2998275A66EF007DC962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFE2997275A66EF007DC962 /* Assets.xcassets */; };
 		AAFE299B275A66EF007DC962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFE299A275A66EF007DC962 /* Preview Assets.xcassets */; };
+		AAFE29A2275A6712007DC962 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE29A1275A6712007DC962 /* MessageModel.swift */; };
+		AAFE29A4275A67A2007DC962 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE29A3275A67A2007DC962 /* MessageViewModel.swift */; };
+		AAFE29A6275A683B007DC962 /* MessagesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE29A5275A683B007DC962 /* MessagesTabView.swift */; };
+		AAFE29A8275A691D007DC962 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE29A7275A691D007DC962 /* WelcomeView.swift */; };
+		AAFE29AA275A7720007DC962 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE29A9275A7720007DC962 /* Basic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAFE2990275A66EF007DC962 /* BadgeTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadgeTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFE2993275A66EF007DC962 /* BadgeTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeTutorialApp.swift; sourceTree = "<group>"; };
-		AAFE2995275A66EF007DC962 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAFE2995275A66EF007DC962 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		AAFE2997275A66EF007DC962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAFE299A275A66EF007DC962 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAFE29A1275A6712007DC962 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		AAFE29A3275A67A2007DC962 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		AAFE29A5275A683B007DC962 /* MessagesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTabView.swift; sourceTree = "<group>"; };
+		AAFE29A7275A691D007DC962 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AAFE29A9275A7720007DC962 /* Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				AAFE2993275A66EF007DC962 /* BadgeTutorialApp.swift */,
-				AAFE2995275A66EF007DC962 /* ContentView.swift */,
+				AAFE29A9275A7720007DC962 /* Basic.swift */,
+				AAFE29A5275A683B007DC962 /* MessagesTabView.swift */,
+				AAFE29A7275A691D007DC962 /* WelcomeView.swift */,
+				AAFE2995275A66EF007DC962 /* MessageView.swift */,
+				AAFE29A3275A67A2007DC962 /* MessageViewModel.swift */,
+				AAFE29A1275A6712007DC962 /* MessageModel.swift */,
 				AAFE2997275A66EF007DC962 /* Assets.xcassets */,
 				AAFE2999275A66EF007DC962 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFE2996275A66EF007DC962 /* ContentView.swift in Sources */,
+				AAFE29A6275A683B007DC962 /* MessagesTabView.swift in Sources */,
+				AAFE29A8275A691D007DC962 /* WelcomeView.swift in Sources */,
+				AAFE29AA275A7720007DC962 /* Basic.swift in Sources */,
+				AAFE29A2275A6712007DC962 /* MessageModel.swift in Sources */,
+				AAFE2996275A66EF007DC962 /* MessageView.swift in Sources */,
+				AAFE29A4275A67A2007DC962 /* MessageViewModel.swift in Sources */,
 				AAFE2994275A66EF007DC962 /* BadgeTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
