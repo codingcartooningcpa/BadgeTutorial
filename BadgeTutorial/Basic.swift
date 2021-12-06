@@ -4,6 +4,7 @@
 //
 //  Created by Debra Kerman on 12/3/21.
 //
+//  Basic implementation of the badge() modifier
 
 import SwiftUI
 
@@ -16,7 +17,6 @@ struct Basic: View {
                 }
                 .badge(5)
         }
-        .preferredColorScheme(.dark)
         
         TabView {
             Text("Home Tab")
@@ -25,7 +25,6 @@ struct Basic: View {
                 }
                 .badge("hi")
         }
-        .preferredColorScheme(.dark)
     }
 }
 

@@ -1,15 +1,16 @@
 //
-//  Model.swift
+//  Message.swift
 //  BadgeTutorial
 //
 //  Created by Debra Kerman on 12/3/21.
 //
+//  Model to store message data.
 
 import Foundation
 
-struct MessageModel {
+struct Message {
     
-    var message: String
+    var messageText: String
     var likeCount: Int
     
 }

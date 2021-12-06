@@ -4,17 +4,18 @@
 //
 //  Created by Debra Kerman on 12/3/21.
 //
+//  @main
 
 import SwiftUI
 
 @main
 struct BadgeTutorialApp: App {
-    @StateObject var model = MessageViewModel()
+    @StateObject var messageData = MessageViewModel()
     
     var body: some Scene {
         WindowGroup {
             MessagesTabView()
-                .environmentObject(model)
+                .environmentObject(messageData)
         }
     }
 }

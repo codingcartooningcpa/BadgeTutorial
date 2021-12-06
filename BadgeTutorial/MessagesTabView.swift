@@ -1,9 +1,10 @@
 //
-//  TabView.swift
+//  MessagesTabView.swift
 //  BadgeTutorial
 //
 //  Created by Debra Kerman on 12/3/21.
 //
+//  Uses the badge() modifier to display the accumulated number of likes.
 
 import SwiftUI
 
@@ -20,18 +21,19 @@ struct MessagesTabView: View {
                     Image(systemName: "mustache")
                     Text("Welcome")
                 }
-                .tag(1)  //keep tab from switching
-            MessageView()
+                .tag(1)  //keeps tab from switching
+            
+            MessageButtonView()
                 .tabItem {
                     Image(systemName: "person.text.rectangle")
                     Text("Messages")
                 }
                 .tag(2)
-                .badge(likeCountBadge)  //nothing if 0, then 5, "hi", badgeCount displays red if 0
+                .badge(likeCountBadge)  //nothing if 0
         }
-        .onChange(of: messageData.numberOfLikes) { newValue in
-            likeCountBadge = messageData.numberOfLikes
-            print("badge: \(likeCountBadge)")
+        .onChange(of: messageData.fetchLikes()) { newValue in
+            likeCountBadge = messageData.fetchLikes()
+            print("badge count: \(likeCountBadge)")
         }
     }
 }
