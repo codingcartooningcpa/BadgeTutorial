@@ -15,7 +15,7 @@ struct MessageButtonView: View {
     var body: some View {
         VStack {
             Text(messageData.getMessage())
-                .font(.title)
+                .font(.title3)
                 .foregroundColor(.white)
                 .padding()
                 .background(.blue)

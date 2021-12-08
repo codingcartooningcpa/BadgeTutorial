@@ -21,7 +21,7 @@ struct MessagesTabView: View {
                     Image(systemName: "mustache")
                     Text("Welcome")
                 }
-                .tag(1)  //keeps tab from switching
+                .tag(1)
             
             MessageButtonView()
                 .tabItem {
