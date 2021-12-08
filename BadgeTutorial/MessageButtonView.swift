@@ -4,7 +4,7 @@
 //
 //  Created by Debra Kerman on 12/3/21.
 //
-//  Button - when tapped, adds a like to count.
+//  Message and button.  When button tapped, adds a like to count.
 
 import SwiftUI
 
@@ -25,6 +25,9 @@ struct MessageButtonView: View {
             } label: {
                 Text("Like 👍")
             }
+        }
+        .onAppear {
+            print("x")
         }
     }
 }
