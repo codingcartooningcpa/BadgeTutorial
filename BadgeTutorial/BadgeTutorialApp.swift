@@ -1,4 +1,3 @@
-//
 //  BadgeTutorialApp.swift
 //  BadgeTutorial
 //
