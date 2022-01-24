@@ -1,5 +1,5 @@
 # BadgeTutorial
-An example app illustrating how to implement dynamic badges on tab items.
+A SwiftUI tutorial demonstrating how to add dynamic badges to TabView items.
 
 This source code accompanies codeInTheMaking, a free tutorial series to educate iOS developers using SwiftUI.
 
