@@ -4,7 +4,7 @@
 //
 //  Created by Debra Kerman on 12/3/21.
 //
-//  Message and Button views.  When button tapped, adds a like to count.
+//  Message and Button views.  When button is tapped, call ViewModel to add a like to count.
 
 import SwiftUI
 
